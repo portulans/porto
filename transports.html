@@ -2,12 +2,23 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <title>Transports à Porto</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
 <body>
-
+    <!--Navigation-->
+    <nav class="w3-bar w3-light-blue">
+        <a href="index.html" class="w3-button w3-bar-item">Accueil</a>
+        <a href="#jour1" class="w3-button w3-bar-item">Jour 1</a>
+        <a href="#jour2" class="w3-button w3-bar-item">Jour 2</a>
+        <a href="#jour3" class="w3-button w3-bar-item">Jour 3</a>
+        <a href="#jour4" class="w3-button w3-bar-item">Jour 4</a>
+        <a href="transports.html" class="w3-button w3-bar-item">Transports</a>
+      </nav>
 <h1>Transports à Porto</h1>
 
 <h2>Porto</h2>
@@ -16,7 +27,7 @@ La région de Porto est divisée en un grand nombre de zones. Le prix du ticket 
 
 <h2>Région</h2>
 
-<table>
+<table class="w3-table w3-striped">
     <thead>
         <tr>
             <th>Départ</th>
@@ -25,7 +36,6 @@ La région de Porto est divisée en un grand nombre de zones. Le prix du ticket 
             <th>Moyen de transport</th>
             <th>Zone Andante (depuis Porto)</th>
             <th>Prix aller simple (2022)</th>
-            <th>Fréquence des trains</th>
         </tr>
     </thead>
     <tbody>
@@ -42,7 +52,7 @@ La région de Porto est divisée en un grand nombre de zones. Le prix du ticket 
             <td>Braga</td>
             <td></td>
             <td>Train régional</td>
-            <td></td>
+            <td>8</td>
             <td>3.65 €</td>
         </tr>
         <tr>
@@ -50,7 +60,7 @@ La région de Porto est divisée en un grand nombre de zones. Le prix du ticket 
             <td>Aveiro</td>
             <td></td>
             <td>Train régional</td>
-            <td></td>
+            <td>9</td>
             <td>4.05 €</td>
         </tr>
     </tbody>
@@ -59,7 +69,7 @@ La région de Porto est divisée en un grand nombre de zones. Le prix du ticket 
 <h2>Titres de transports</h2>
 
 <h3>Offres</h3>
-<table>
+<table class="w3-table w3-striped">
     <thead>
         <tr>
             <th>Nom</th>
@@ -98,7 +108,7 @@ La région de Porto est divisée en un grand nombre de zones. Le prix du ticket 
 
 <h3>Supports</h3>
 Deux types de supports sont possibles pour ces titres de transports :
-<table>
+<table class="w3-table w3-striped">
     <thead>
         <tr>
             <th>Nom</th>
@@ -126,15 +136,21 @@ Deux types de supports sont possibles pour ces titres de transports :
     </tbody>
 </table>
 
-=> [https://www.linhandante.com/en/web/tip/cartoes-andante|Infos sur les types de cartes]
-=> [https://www.porto.fr/carte-andante|Infos Carte Andante]
-=> [https://www.porto.fr/carte-andante|Infos Porto Card]
-
 <h2>Sources</h2>
 <ul>
     <li>Zones Andante (Métropole de Porto) : https://www.linhandante.com/en/web/tip/titulos-de-transporte</li>
     <li>Tarifs régionaux : https://www.cp.pt/StaticFiles/Passageiros/1_horarios/precos/pt/oporto-urban-trains-prices.pdf</li>
+    <li>Infos sur les types de cartes : https://www.linhandante.com/en/web/tip/cartoes-andante</li>
+    <li>Infos Carte Andante : https://www.porto.fr/carte-andante</li>
+    <li>Infos Porto Card : https://www.porto.fr/carte-andante</li>
 </ul>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-light-blue w3-xlarge">
+    <p class="w3-medium">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+    </p>
+  </footer>
 
 </body>
 </html>
