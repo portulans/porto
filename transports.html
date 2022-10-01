@@ -10,140 +10,155 @@
   <script src="script.js"></script>
 </head>
 <body>
+
     <!--Navigation-->
     <nav class="w3-bar w3-light-blue">
         <a href="index.html" class="w3-button w3-bar-item">Accueil</a>
-        <a href="#jour1" class="w3-button w3-bar-item">Jour 1</a>
-        <a href="#jour2" class="w3-button w3-bar-item">Jour 2</a>
-        <a href="#jour3" class="w3-button w3-bar-item">Jour 3</a>
-        <a href="#jour4" class="w3-button w3-bar-item">Jour 4</a>
+        <a href="jour1.html" class="w3-button w3-bar-item">Jour 1</a>
+        <a href="jour2.html" class="w3-button w3-bar-item">Jour 2</a>
+        <a href="jour3.html" class="w3-button w3-bar-item">Jour 3</a>
+        <a href="jour4.html" class="w3-button w3-bar-item">Jour 4</a>
         <a href="transports.html" class="w3-button w3-bar-item">Transports</a>
       </nav>
-<h1>Transports à Porto</h1>
 
-<h2>Porto</h2>
+    <!-- Description -->
+    <section class="w3-container w3-center w3-content" style="max-width:600px">
+        <h2 class="w3-wide">Transports en commun à Porto</h2>
+        <p class="w3-opacity"><i>Guide des transports à Porto</i></p>
+        <p class="w3-justify"></p>
+    </section>
 
-La région de Porto est divisée en un grand nombre de zones. Le prix du ticket est croissant d'une zone à une autre. 
+    <!--Transports en communs existants-->
+    <section class="w3-container">
 
-<h2>Région</h2>
+    </section>
 
-<table class="w3-table w3-striped">
-    <thead>
-        <tr>
-            <th>Départ</th>
-            <th>Arrivée</th>
-            <th>Distance</th>
-            <th>Moyen de transport</th>
-            <th>Zone Andante (depuis Porto)</th>
-            <th>Prix aller simple (2022)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Porto</td>
-            <td>Guimarães</td>
-            <td>47 km</td>
-            <td>Train régional</td>
-            <td>8</td>
-            <td>3.65 €</td>
-        </tr>
-        <tr>
-            <td>Porto</td>
-            <td>Braga</td>
-            <td></td>
-            <td>Train régional</td>
-            <td>8</td>
-            <td>3.65 €</td>
-        </tr>
-        <tr>
-            <td>Porto</td>
-            <td>Aveiro</td>
-            <td></td>
-            <td>Train régional</td>
-            <td>9s</td>
-            <td>4.05 €</td>
-        </tr>
-    </tbody>
-</table>
+    <!--Traifs-->
+    <section class="w3-container">
 
-<h2>Titres de transports</h2>
+        <h2>Zones tarifaires</h2>
+        <p>La métropole de Porto est divisée en un grand nombre de zones tarifairs (14). 
+            Le prix du ticket est croissant d'une zone à une autre. Les transports compris sont le métro, les trains régionaux et les bus.</p>
 
-<h3>Offres</h3>
-<table class="w3-table w3-striped">
-    <thead>
-        <tr>
-            <th>Nom</th>
-            <th>Prix</th>
-            <th>Fonctionnement</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>A l'unité</td>
-            <td>Dépend du trajet (Centre - Aéroport : 2 €)</td>
-            <td>Temps de validité dépend du trajet</td>
-        </tr>
-        <tr>
-            <td>Andante 24</td>
-            <td>Dépend de la zone max choisie</td>
-            <td>Equivaut à un ticket journée ilimité dans un ensemble de zones choisies. Valable 24h à partir de la première validation</td>
-        </tr>
-        <tr>
-            <td>Andante Tour 1</td>
-            <td>7 €</td>
-            <td>Toutes les zones sont accessibles. Valable 24h à partir de la première validation.</td>
-        </tr>
-        <tr>
-            <td>Andante Tour 3</td>
-            <td>15 €</td>
-            <td>Toutes les zones sont accessibles. Valable 72h à partir de la première validation.</td>
-        </tr>
-        <tr>
-            <td>Porto Card</td>
-            <td></td>
-            <td>Réductions associées</td>
-        </tr>
-    </tbody>
-</table>
+        <table class="w3-table w3-striped w3-border">
+            <thead>
+                <tr>
+                    <th>Départ</th>
+                    <th>Arrivée</th>
+                    <th>Distance</th>
+                    <th>Moyen de transport</th>
+                    <th>Zone Andante (depuis Porto)</th>
+                    <th>Prix aller simple (2022)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Porto</td>
+                    <td>Guimarães</td>
+                    <td>47 km</td>
+                    <td>Train régional</td>
+                    <td>8</td>
+                    <td>3.65 €</td>
+                </tr>
+                <tr>
+                    <td>Porto</td>
+                    <td>Braga</td>
+                    <td></td>
+                    <td>Train régional</td>
+                    <td>8</td>
+                    <td>3.65 €</td>
+                </tr>
+                <tr>
+                    <td>Porto</td>
+                    <td>Aveiro</td>
+                    <td></td>
+                    <td>Train régional</td>
+                    <td>9</td>
+                    <td>4.05 €</td>
+                </tr>
+            </tbody>
+        </table>
 
-<h3>Supports</h3>
-Deux types de supports sont possibles pour ces titres de transports :
-<table class="w3-table w3-striped">
-    <thead>
-        <tr>
-            <th>Nom</th>
-            <th>Type</th>
-            <th>Prix (2022)</th>
-            <th>Titres de transports acceptés</th>
-            <th>Autres infos</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Blue Andante</td>
-            <td>Carte en carton</td>
-            <td>0.6 €</td>
-            <td>Tickets à l'unité, Andante 24</td>
-            <td>Valable 1 an, non nominative, une par personne, contient un seul type de tickets à la fois</td>
-        </tr>
-        <tr>
-            <td>PVC Andante</td>
-            <td>Carte magnétique</td>
-            <td>6 €</td>
-            <td>Tickets à l'unité, Andante 24</td>
-            <td>Valable 5 ans, personnalisée et nominative, contient un seul type de tickets à la fois + forfait mensuel</td>
-        </tr>
-    </tbody>
-</table>
+        <h2>Titres de transports</h2>
 
-<h2>Sources</h2>
-<ul>
-    <li>Zones Andante (Métropole de Porto) : https://www.linhandante.com/en/web/tip/titulos-de-transporte</li>
-    <li>Tarifs régionaux : https://www.cp.pt/StaticFiles/Passageiros/1_horarios/precos/pt/oporto-urban-trains-prices.pdf</li>
-    <li>Infos sur les types de cartes : https://www.linhandante.com/en/web/tip/cartoes-andante</li>
-    <li>Infos Carte Andante : https://www.porto.fr/carte-andante</li>
-    <li>Infos Porto Card : https://www.porto.fr/carte-andante</li>
-</ul>
+        <h3>Offres</h3>
+        <table class="w3-table w3-striped w3-border">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prix</th>
+                    <th>Fonctionnement</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A l'unité</td>
+                    <td>Dépend du trajet (Centre - Aéroport : 2 €)</td>
+                    <td>Temps de validité dépend du trajet</td>
+                </tr>
+                <tr>
+                    <td>Andante 24</td>
+                    <td>Dépend de la zone max choisie</td>
+                    <td>Equivaut à un ticket journée ilimité dans un ensemble de zones choisies. Valable 24h à partir de la première validation</td>
+                </tr>
+                <tr>
+                    <td>Andante Tour 1</td>
+                    <td>7 €</td>
+                    <td>Toutes les zones sont accessibles. Valable 24h à partir de la première validation.</td>
+                </tr>
+                <tr>
+                    <td>Andante Tour 3</td>
+                    <td>15 €</td>
+                    <td>Toutes les zones sont accessibles. Valable 72h à partir de la première validation.</td>
+                </tr>
+                <tr>
+                    <td>Porto Card</td>
+                    <td></td>
+                    <td>Réductions associées</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Supports</h3>
+        Deux types de supports sont possibles pour ces titres de transports :
+        <table class="w3-table w3-striped w3-border">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Type</th>
+                    <th>Prix (2022)</th>
+                    <th>Titres de transports acceptés</th>
+                    <th>Autres infos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Blue Andante</td>
+                    <td>Carte en carton</td>
+                    <td>0.6 €</td>
+                    <td>Tickets à l'unité, Andante 24</td>
+                    <td>Valable 1 an, non nominative, une par personne, contient un seul type de tickets à la fois</td>
+                </tr>
+                <tr>
+                    <td>PVC Andante</td>
+                    <td>Carte magnétique</td>
+                    <td>6 €</td>
+                    <td>Tickets à l'unité, Andante 24</td>
+                    <td>Valable 5 ans, personnalisée et nominative, contient un seul type de tickets à la fois + forfait mensuel</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Sources</h2>
+        <ul>
+            <li>Zones Andante (Métropole de Porto) : https://www.linhandante.com/en/web/tip/titulos-de-transporte</li>
+            <li>Tarifs régionaux : https://www.cp.pt/StaticFiles/Passageiros/1_horarios/precos/pt/oporto-urban-trains-prices.pdf</li>
+            <li>Infos sur les types de cartes : https://www.linhandante.com/en/web/tip/cartoes-andante</li>
+            <li>Infos Carte Andante : https://www.porto.fr/carte-andante</li>
+            <li>Infos Porto Card : https://www.porto.fr/carte-andante</li>
+        </ul>
+
+    </section>
 
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-center w3-light-blue w3-xlarge">
