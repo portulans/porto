@@ -15,7 +15,8 @@ La région de Porto est divisée en un grand nombre de zones. Le prix du ticket 
 ## Titres de transports
 
 | Nom | Prix | Fonctionnement |
-| A l'unité | Dépend du trajet | Temps de validité dépend du trajet |
+| --- |: --: | -------------: |
+| A l'unité | Dépend du trajet (Centre <-> Aéroport : 2 €| Temps de validité dépend du trajet |
 | Andante 24 | Dépend de la zone max choisie | Equivaut à un ticket journée ilimité dans un ensemble de zones choisies. Valable 24h à partir de la première validation |
 | Andante Tour 1 | 7 € | Toutes les zones sont accessibles. Valable 24h à partir de la première validation |
 | Andante Tour 3 | 15 € | Toutes les zones sont accessibles. Valable 72h à partir de la première validation |
